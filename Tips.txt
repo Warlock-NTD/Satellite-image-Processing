@@ -1,0 +1,6 @@
+https://gdal.org/python/osgeo.gdal.Dataset-class.html
+https://gdal.org/python/osgeo.osr.SpatialReference-class.html
+https://spatialreference.org/
+
+gdal_translate NETCDF:"Input_FileName.nc":variable_name Output_FileName.tif
+gdal_translate NETCDF:"L8_060_018_016_2013_330_2013_346_v1.nc":vv_masked GoLIVE-vv_masked.tif
